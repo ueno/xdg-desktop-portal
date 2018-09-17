@@ -32,6 +32,7 @@ PORTAL_IFACE_FILES =\
 	data/org.freedesktop.portal.Email.xml \
 	data/org.freedesktop.portal.ScreenCast.xml \
 	data/org.freedesktop.portal.RemoteDesktop.xml \
+	data/org.freedesktop.portal.Secrets.xml \
 	$(NULL)
 
 PORTAL_IMPL_IFACE_FILES =\
@@ -125,6 +126,8 @@ xdg_desktop_portal_SOURCES = \
 	src/session.h			\
 	src/trash.c			\
 	src/trash.h			\
+	src/secrets.c			\
+	src/secrets.h			\
 	src/xdp-utils.c			\
 	src/xdp-utils.h			\
 	$(NULL)
